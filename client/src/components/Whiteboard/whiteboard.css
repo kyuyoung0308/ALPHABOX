@@ -1,0 +1,101 @@
+.Whiteboard {
+    background-color: #A1C9C9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    align-items: left;
+  }
+
+  .Whiteboard .colorfield{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 2px solid white;
+    align-self: center;
+    margin:0 5px;
+  }
+  .Whiteboard .picker{
+    align-self: center;
+    margin: 0 15px;
+    height: 50px;
+  }
+  
+  .Whiteboard .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    color:white;
+    text-shadow: 2px 2px #383636;
+  }
+
+  .Whiteboard .button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 12px;
+    margin: 0 10px;
+    padding: 12px 20px;
+    background-color: #db9487;
+    font-size:14px;
+    color: white;
+  }
+  .Whiteboard .button:hover {background-color: #d48172;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
+
+  .Whiteboard .button1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 12px;
+    margin: 0 10px;
+    padding: 12px 20px;
+  }
+  .Whiteboard .button:active {
+    background-color: #d86b57;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+  }
+  .Whiteboard .select-style {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    width: 120px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #fff;
+    background: #fff;
+    position: relative;
+}
+.Whiteboard .select-style select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.Whiteboard .select-style:after {
+    top: 50%;
+    left: 85%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(0, 0, 0, 0);
+    border-top-color: #000000;
+    border-width: 5px;
+    margin-top: -2px;
+    z-index: 100;
+}
+.Whiteboard .select-style select:focus {
+    outline: none;
+}

@@ -1,0 +1,99 @@
+.note-container {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.notebook-container {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.notes-list {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.note {
+    background-color: rgba(51, 180, 126, 0.315);
+    border-radius: 15px;
+    padding: 2rem;
+    min-height: 100px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.note-name {
+    font-size: larger;
+}
+
+.note-label {
+    color: rgba(103, 115, 106, 0.802);
+    margin-bottom: 10px;
+}
+
+.note-options {
+    display: flex;
+    align-items: center;
+}
+
+.note-btn {
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 5px;
+}
+
+.note-btn:active {
+    background: lightgray;
+    box-shadow: none;
+}
+
+.add-btn {
+    margin-left: 10px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: rgba(100, 100, 100, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    margin-top: 50px;
+    font-size: 40px;
+
+}
+
+.add-btn:active {
+    background: lightgray;
+    box-shadow: none;
+}
+
+
+
+.save-btn {
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    outline: none;
+    border: none;
+}
+
+.save-btn:active {
+    background: lightgray;
+    box-shadow: none;
+}
+
+
+.note-statusbar {}
+
+.note-text {}

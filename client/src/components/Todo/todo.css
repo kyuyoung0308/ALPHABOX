@@ -1,0 +1,15 @@
+body,
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.todo {
+    font-size: 0.5em;
+    width: 8.25em;
+    height: 9.5em;
+    /* padding-bottom: 2em; */
+    border-radius: 0.5rem;
+    border-color: transparent;
+    background-color: transparent;
+    color: white;
+}

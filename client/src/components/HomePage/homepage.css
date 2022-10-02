@@ -1,0 +1,132 @@
+.HomePage body,
+html {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+
+.HomePage {
+  background-color: #a1c9c9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.HomePage .jumbotron {
+  padding: 1rem 3rem 7rem 1rem;
+  /* margin-bottom: 2rem; */
+  border-radius: 0.3rem;
+  color: white;
+  font-size: 175%;
+  /* -webkit-text-stroke: 1px #34a0a4; */
+  text-shadow: 3px 2px rgba(0, 0, 0, 0.24);
+  display: table-cell;
+  justify-content: center;
+  position: relative;
+}
+
+.HomePage .container {
+  display: table;
+  min-height: calc(100vh - 300px);
+}
+
+.HomePage #logout {
+  position: absolute;
+  right: 2%;
+  border-color: transparent;
+  background-color: #db9487;
+  color: white;
+  box-shadow: 3px 2px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-size: 60%;
+}
+
+.HomePage #greeting {
+  position: absolute;
+  left: 0;
+  margin-right: 0;
+  padding-left: 2.5rem;
+}
+
+.HomePage .fourb, .todocon, .calendar {
+  display: table-cell;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.HomePage #todo, #calendar {
+  font-size: xx-large;
+  width: 8.25em;
+  height: 9.5em;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  border-color: transparent;
+  background-color: #db9487;
+  color: white;
+  box-shadow: 3px 2px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+}
+
+.HomePage .fourb .btn {
+  font-size: 3rem;
+  min-width: 5.5em;
+  min-height: 3em;
+  margin: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  border-color: transparent;
+  background-color: #db9487;
+  color: white;
+  box-shadow: 3px 2px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+}
+
+.HomePage .btn:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.HomePage .shortcuts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+}
+
+.HomePage #gDrive, #owl, #zoom {
+  display: inline-block;
+  margin: 0.5rem 0.5rem;
+  vertical-align: top;
+  background-size: 4em 4em;
+  min-width: 4em;
+  min-height: 4em;
+  background-color: transparent;
+  border-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.HomePage #gDrive {
+  background-image: url('https://www.ovsd.org/cms/lib011/CA02208954/Centricity/Template/GlobalAssets/icons/google-drive-logo-white.png');
+}
+
+.HomePage #owl {
+  background-image: url('./icons/owl.png');
+}
+
+.HomePage #zoom {
+  background-image: url('https://api.iconify.design/akar-icons/zoom-fill.svg?color=white');
+}
+
+.HomePage .shortcuts .btn:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}

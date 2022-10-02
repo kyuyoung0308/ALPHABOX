@@ -1,0 +1,20 @@
+
+ .Control-Buttons {
+    margin: 3rem 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .reset_button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+    
+  .reset_button1{
+      background-color: #e42a2a;
+      font-size: 50px;
+  }
